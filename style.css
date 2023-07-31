@@ -1,0 +1,45 @@
+*{
+    margin: 0;padding: 0;
+}
+main{
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con{
+    color: white;
+    display: flex;
+    height: 400px;
+    width: 450px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsla(0, 0%, 10%, 0.422);
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 3px 3px 7px white;
+}
+
+#indate, #inmonth, #inyear{
+    font-size: 18px;
+}
+
+#btn{
+    font-family: cursive;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(49, 104, 141);
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 150px;
+}
+
+#ans{
+    padding: 10px;
+    font-size: 18px;
+}
